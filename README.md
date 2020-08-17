@@ -24,19 +24,15 @@ In training, [the IMDB-WIKI dataset](https://data.vision.ee.ethz.ch/cvl/rrothe/i
 ### In client 
 Run 
 ```
-python3 client_0.py --server-ip [ip_server]
-```
-if you use IP camera. Please change IP address in client_0.py file 
+python3 client_0.py -i [IP cam address] -s [ip_server]
+``` 
 
 ### In Server
 Run
 ```
 python3 server.py
 ```
-or if you need tracking + detect age and gender. Run
-```
-python3 server_agender.py
-```
+to tracking person and age+gender detection
 ## References
 [1] R. Rothe, R. Timofte, and L. V. Gool, "DEX: Deep EXpectation of apparent age from a single image," in Proc. of ICCV, 2015.
 
