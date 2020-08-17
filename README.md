@@ -1,4 +1,6 @@
 # Multicam-Tracking-and-Counting
+- Project tracking and counting person with age and gender detection  
+- Multi camera ip
 
 
 
